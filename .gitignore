@@ -1,0 +1,19 @@
+.DS_STORE
+.opt-in
+.nyc_output/
+.vscode/
+.eslintcache
+.sass-cache
+
+*.log
+*.debug
+
+# Node.js and NPM
+node_modules/
+npm-debug.log
+
+dist/
+build/
+coverage/
+node_modules/
+documentation/

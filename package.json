@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nps",
+    "test": "nps test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephferris/nodejs-authentication.git"
+  },
+  "keywords": [],
+  "author": "Joey Ferris <joey@joeyferris.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephferris/nodejs-authentication/issues"
+  },
+  "homepage": "https://github.com/josephferris/nodejs-authentication#readme",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "express": "4.17.1",
+    "prettier-quick": "0.0.5"
+  },
+  "devDependencies": {
+    "husky": "2.4.1",
+    "nps": "5.9.5",
+    "nps-utils": "1.7.0",
+    "onchange": "6.0.0",
+    "prettier": "1.18.2",
+    "pretty-quick": "1.11.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "nps prettier.quick",
+      "pre-push": "nps prettier.fix"
+    }
+  }
+}
