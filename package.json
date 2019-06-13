@@ -21,6 +21,7 @@
   "dependencies": {
     "chalk": "2.4.2",
     "express": "4.17.1",
+    "express-force-ssl": "0.3.2",
     "prettier-quick": "0.0.5"
   },
   "devDependencies": {
