@@ -21,11 +21,11 @@ module.exports = {
         description: 'runs pretty quick on all files staged for commit',
       },
       watch: {
-        script: 'onchange "**/*.js" -- prettier --config .prettierrc.json *.js --write {{changed}}',
+        script: 'onchange "**/*.js" -- prettier --config .prettierrc.yaml *.js --write {{changed}}',
         description: 'runs prettier on change of file',
       },
       fix: {
-        script: 'prettier --config .prettierrc.json *.js --write',
+        script: 'prettier --config .prettierrc.yaml *.js --write',
         description: 'runs prettier on all source files',
       },
       quick: {
