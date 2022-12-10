@@ -20,7 +20,7 @@
   "homepage": "https://github.com/josephferris/nodejs-authentication#readme",
   "dependencies": {
     "chalk": "2.4.2",
-    "express": "4.17.1"
+    "express": "4.17.3"
   },
   "devDependencies": {
     "husky": "2.4.1",
